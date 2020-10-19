@@ -4,7 +4,7 @@
 add_action( 'plugins_loaded', 'wp_plugin_boilerplate_plugins_loaded' );
 function wp_plugin_boilerplate_plugins_loaded() {
 	// Load textdomain
-	load_plugin_textdomain( 'wp-plugin-boilerplate', false, wp_plugin_boilerplate_file_uri( '/languages' ) );
+	load_plugin_textdomain( 'wp-plugin-boilerplate', false, '/wp-plugin-boilerplate/languages' );
 }
 
 // Plugin activation
