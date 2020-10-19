@@ -1,0 +1,14 @@
+{
+  "name": "wp-plugin-boilerplate",
+  "description": "WP Plugin Boilerplate",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "webpack-defaults": "https://github.com/lewebsimple/webpack-defaults.git",
+    "webpack-merge": "^5.2.0"
+  }
+}

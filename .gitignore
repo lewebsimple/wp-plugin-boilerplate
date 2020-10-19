@@ -1,0 +1,12 @@
+# Generated assets
+assets
+
+# Node
+node_modules
+package-lock.json
+*.lock
+*.log
+.pnp*
+
+# JetBrains
+.idea
